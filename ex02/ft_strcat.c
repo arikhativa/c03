@@ -1,23 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcmp.c                                        :+:      :+:    :+:   */
+/*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yrabby <yrabby@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/22 14:43:52 by yrabby            #+#    #+#             */
-/*   Updated: 2022/05/22 15:20:27 by yrabby           ###   ########.fr       */
+/*   Created: 2022/05/22 15:26:19 by yrabby            #+#    #+#             */
+/*   Updated: 2022/05/22 15:37:58 by yrabby           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strcmp(char *s1, char *s2)
+char	*ft_strcat(char *dest, char *src)
 {
-	if (!s1 || !s2)
-		return (0);
-	while (*s1 && *s1 == *s2)
-	{
-		++s1;
-		++s2;
-	}
-	return ((unsigned char)(*s1) - (unsigned char)(*s2));
+	// char	*runner;
+
+	// if (!dest || !src)
+	// 	return (dest);
+	// runner = dest;
+	// while (*src)
+	// {
+	// 	*runner = *src;
+	// 	++runner;
+	// 	++src;
+	// }
+	// *runner = 0;
+	return (dest);
 }
