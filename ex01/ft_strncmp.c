@@ -6,7 +6,7 @@
 /*   By: yrabby <yrabby@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/22 15:15:59 by yrabby            #+#    #+#             */
-/*   Updated: 2022/05/22 15:25:02 by yrabby           ###   ########.fr       */
+/*   Updated: 2022/05/24 11:27:48 by yrabby           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,5 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	}
 	if (i == n)
 		return (0);
-	return ((unsigned char)(*s1) - (unsigned char)(*s2));
+	return (*s1 - *s2);
 }
